@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full left-0 top-0 z-[999] bg-black text-white`}>
       <div className="flex items-center justify-between">
-        <div className="mx-7">
+        <div className="mx-7 my-1">
           <a href="#home" className="flex flex-row">
             <div className="text-4xl text-cyan-600"> <ion-icon name="code-outline"></ion-icon></div>
          
@@ -21,7 +21,7 @@ const Navbar = () => {
             </h4>
           </a>
         </div>
-        <div className={`  text-white md:block hidden px-7 py-2 font-medium  `}>
+        <div className={`  text-white lg:block   hidden px-7 py-2 font-medium  `}>
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
               <li key={i} className="px-6 hover:text-cyan-600">
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className={`z-[999]  text-cyan-600 text-3xl md:hidden m-5`}
+          className={`z-[999]  text-cyan-600 text-3xl  lg:hidden mx-10`}
         >
           <ion-icon name="menu"></ion-icon>
         </div>
