@@ -40,8 +40,8 @@ const Contact = () => {
         <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
 
         <div
-          className="mt-16 flex md:flex-row flex-col
-         gap-6 max-w-8xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
+          className="mt-16 flex lg:flex-row flex-col
+         gap-3  bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form
             className="flex flex-col flex-1 gap-5"
@@ -73,14 +73,13 @@ const Contact = () => {
               Send Message
             </button>
           </form>
-          <div className="flex flex-col  gap-7  ">
+          <div className="flex flex-col  gap-4">
             <div
-              className="flex 
-              text-left gap-4  items-center justify-center 3xl:w-1/2 "
+              className="flex  gap-4  items-center justify-center 3xl:full"
             >
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.6107607847966!2d93.93584267524648!3d24.842981477940675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37492785030cfa5d%3A0xa9e85369c96babc0!2sIndian%20Institute%20of%20Information%20Technology%20Manipur!5e0!3m2!1sen!2sin!4v1688284090692!5m2!1sen!2sin"
-                // width="700"
+                width="700"
                 height="400"
                 style={{ border: 0 }}
                 allowFullScreen=""
