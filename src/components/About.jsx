@@ -3,9 +3,10 @@ import aboutImg from "../assets/images/about.jpeg";
 const About = () => {
 
   return (
-    <section id="about" className=" text-white bg-gray-800 w-full">
-      <div className="text-center mt-8">
-        <h3 className="text-4xl font-semibold">
+    <section id="about" className=" text-white bg-gray-800 w-full  ">
+      <div className="text-center mt-8 ">
+        <br />
+        <h3 className="text-4xl font-semibold mt-10">
           About <span className="text-cyan-600">Me</span>
         </h3>
         <p className="text-gray-400 my-3 text-lg">My introduction</p>
@@ -30,7 +31,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
+          <div className="flex-1 md:mt-0 m-6 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm  aboutImg ">
               <img
                 src={aboutImg}

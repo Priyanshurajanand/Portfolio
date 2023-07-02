@@ -34,8 +34,7 @@ const Project = () => {
     {
       img: project4,
       name: "Support Needy",
-      github_link:
-        "https://github.com/Priyanshurajanand/Support-Needy",
+      github_link: "https://github.com/Priyanshurajanand/Support-Needy",
       live_link: "https://support-needy.vercel.app",
     },
     {
@@ -50,9 +49,13 @@ const Project = () => {
   return (
     <section id="projects" className="py-10 text-white">
       <div className="text-center mt-8">
+        <div className="flex flex-row justify-center">
+        <div className="text-4xl mr-5 text-cyan-600">
+          <ion-icon name="id-card-outline"></ion-icon>
+        </div>
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Projects</span>
-        </h3>
+        </h3></div>
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />

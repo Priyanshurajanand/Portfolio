@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full left-0 top-0 z-[999] bg-black text-white`}>
       <div className="flex items-center justify-between">
-        <div className="mx-7 my-1">
+        <div className="mr-7 my-1">
           <a href="#home" className="flex flex-row">
             <div className="text-4xl text-cyan-600"> <ion-icon name="code-outline"></ion-icon></div>
          

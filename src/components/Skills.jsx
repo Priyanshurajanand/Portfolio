@@ -27,40 +27,43 @@ const Skills = () => {
       level: "PYTHON",
       count: 50,
     },
-    
+
     {
       logo: "logo-javascript",
       level: "JAVASCRIPT",
       count: 80,
     },
     {
-      logo: "logo",
+      logo: "code-outline",
       level: "C++",
       count: 90,
     },
     {
-      logo: "logo",
+      logo: "code-outline",
       level: "SOLIDITY",
       count: 50,
     },
     {
-      logo: "logo",
+      logo: "code-outline",
       level: "C",
       count: 80,
     },
     {
-      logo: "logo",
+      logo: "code-outline",
       level: "MONGO DB",
       count: 80,
     },
-    
   ];
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative max-w-full">
+    <section id="skills" className="py-10 bg-gray-800 relative w-full">
       <div className="mt-8 text-gray-100 text-center">
+        <div className="flex flex-row justify-center">
+        <div className="text-4xl mr-5 text-cyan-600">
+        <ion-icon name="ribbon-outline"></ion-icon>
+        </div>
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
-        </h3>
+        </h3></div>
         <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
           {skills?.map((skill, i) => (

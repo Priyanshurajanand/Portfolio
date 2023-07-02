@@ -29,7 +29,7 @@ const Hero = () => {
             Fullstack Developer and Blockchain Enthusiastic
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
-          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-2">
+          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-0.1">
             {social_media?.map((media, icon) => (
               <div
                 key={icon}
